@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">One Original Genome</string>
+    <string name="human_question1">How many types of muscles are there in the human body?</string>
+    <string name="human_question2"> What are teeth made of?</string>
+    <string name="human_question3"> How long is your large intestine?</string>
+    <string name="human_question4"> Which parts of the human body contain the ring-like muscles called sphincters?</string>
+    <string name="human_question5">What happens to the brain after a night of heavy drinking? </string>
+    <string name="animal_question1">What are young wolves called? </string>
+    <string name="animal_question2">Why do wolves howl? </string>
+    <string name="animal_question3">How fast can a gray wolf run? </string>
+    <string name="animal_question4">Gray wolves were successfully reintroduced into what U.S. national park?</string>
+    <string name="animal_question5">Which animal is very big and has black and white stripes?</string>
+    <string name="plant_question1">What will happen to a plant left in the dark?</string>
+    <string name="plant_question2">What will happen to a plant that is left un-watered? </string>
+    <string name="plant_question3">Which three things do plants need to make food? </string>
+    v<string name="plant_question4">Grass does not grow as quickly during the winter as it does during the summer. What could be a reason for this??</string>
+    <string name="plant_question5">Which part makes food for the plant?</string>
+</resources>

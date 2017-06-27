@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quizappp.quizapp.HumanActivity"
+    android:orientation="vertical"
+    android:background="@drawable/sky">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/human_question1"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/human_quest1_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="One (skeletal)"
+            android:id="@+id/human_quest1_radio1"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Two (skeletal and smooth)"
+            android:id="@+id/human_quest1_radio2"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Three (cardiac, skeletal, smooth)"
+            android:id="@+id/human_quest1_radio3"/>
+
+         <RadioButton
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Four (cardiac, skeletal, smooth, stripy)"
+             android:id="@+id/human_quest1_radio4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/human_question2"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/human_quest2_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bone"
+                android:id="@+id/human_quest2_radio1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dentine"
+                android:id="@+id/human_quest2_radio2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keratin"
+                android:id="@+id/human_quest2_radio3"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dentine and enamel"
+                android:id="@+id/human_quest2_radio4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/human_question3"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/human_quest3_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6-8 metres"
+                android:id="@+id/human_quest3_radio1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.5 metres"
+                android:id="@+id/human_quest3_radio2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The size of a football field"
+                android:id="@+id/human_quest3_radio3"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="50 cm"
+                android:id="@+id/human_quest3_radio4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/human_question4"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/human_quest4_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anus and urinary tract"
+                android:id="@+id/human_quest4_radio1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mouth and eye"
+                android:id="@+id/human_quest4_radio2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stomach"
+                android:id="@+id/human_quest4_radio3"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="All of the above"
+                android:id="@+id/human_quest4_radio4"/>
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/human_question5"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <RadioGroup
+            android:id="@+id/human_quest5_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The brain become dehydrated and shrinks away from the skull"
+                android:id="@+id/human_quest5_radio1"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The brain swells, causing a splitting headache"
+                android:id="@+id/human_quest5_radio2"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The nerve endings in the base of the brain become inflamed"
+                android:id="@+id/human_quest5_radio3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brain activity increases and the surfeit of thoughts causes a headache"
+                android:id="@+id/human_quest5_radio4"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/human_score_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="SCORE"
+            android:background="#cfd8dc"
+            android:textSize="20sp"
+            android:onClick="SCORE"/>
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

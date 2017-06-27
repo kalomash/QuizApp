@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="quizappp.quizapp.PlantsActivity"
+        android:orientation="vertical"
+        android:background="@drawable/sky">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_question1"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/plants_quest1_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/plants_quest1_radio1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will turn yellow and spindly" />
+
+                <RadioButton
+                    android:id="@+id/plants_quest1_radio2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will grow green and healthily" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will go to sleep"
+                    android:id="@+id/plants_quest1_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All of the above"
+                    android:id="@+id/plants_quest1_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_question2"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/plants_quest2_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will move to where there is water"
+                    android:id="@+id/plants_quest2_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will grow well and healthily"
+                    android:id="@+id/plants_quest2_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It will wilt and eventually die"
+                    android:id="@+id/plants_quest2_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="None of the above"
+                    android:id="@+id/plants_quest2_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_question3"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/plants_quest3_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Water, heat, oxygen"
+                    android:id="@+id/plants_quest3_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Water, carbon dioxide, sunlight"
+                    android:id="@+id/plants_quest3_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Water, sugar, air"
+                    android:id="@+id/plants_quest3_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Oxygen, air, sunlight"
+                    android:id="@+id/plants_quest3_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_question4"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/plants_quest4_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It's colder in the winter"
+                    android:id="@+id/plants_quest4_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="It doesn't rain as much in the winter"
+                    android:id="@+id/plants_quest4_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The grass is sulking"
+                    android:id="@+id/plants_quest4_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All of the above"
+                    android:id="@+id/plants_quest4_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/plant_question5"
+                android:textColor="#000000"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/plants_quest5_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Roots"
+                    android:id="@+id/plants_quest5_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Petals"
+                    android:id="@+id/plants_quest5_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leaves"
+                    android:id="@+id/plants_quest5_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bark"
+                    android:id="@+id/plants_quest5_radio4"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/plants_score_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SCORE"
+                android:background="#cfd8dc"
+                android:textSize="20sp"
+                android:onClick="SCORE"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

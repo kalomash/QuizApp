@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="quizappp.quizapp.AnimalActivity"
+        android:orientation="vertical"
+        android:background="@drawable/sky">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_question1"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <RadioGroup
+                android:id="@+id/animal_quest1_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kits"
+                    android:id="@+id/animal_quest1_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cubs"
+                    android:id="@+id/animal_quest1_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pups"
+                    android:id="@+id/animal_quest1_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kids"
+                    android:id="@+id/animal_quest1_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_question2"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <RadioGroup
+                android:id="@+id/animal_quest2_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To entice mates"
+                    android:id="@+id/animal_quest2_radio1"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To confuse prey"
+                    android:id="@+id/animal_quest2_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="To communicate long distance"
+                    android:id="@+id/animal_quest2_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="All of the above"
+                    android:id="@+id/animal_quest2_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_question3"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <RadioGroup
+                android:id="@+id/animal_quest3_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="5 miles an hour"
+                    android:id="@+id/animal_quest3_radio1"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="12 miles an hour"
+                    android:id="@+id/animal_quest3_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="22 miles an hour"
+                    android:id="@+id/animal_quest3_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="38 miles an hour"
+                    android:id="@+id/animal_quest3_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_question4"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <RadioGroup
+                android:id="@+id/animal_quest4_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Denali"
+                    android:id="@+id/animal_quest4_radio1"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rocky Mountains"
+                    android:id="@+id/animal_quest4_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yellowstone"
+                    android:id="@+id/animal_quest4_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yosemite"
+                    android:id="@+id/animal_quest4_radio4"/>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/animal_question5"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <RadioGroup
+                android:id="@+id/animal_quest5_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Skunk"
+                    android:id="@+id/animal_quest5_radio1"/>
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Clowfish"
+                    android:id="@+id/animal_quest5_radio2"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Zebra"
+                    android:id="@+id/animal_quest5_radio3"/>
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Frog"
+                    android:id="@+id/animal_quest5_radio4"/>
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/animal_score_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="SCORE"
+                android:background="#cfd8dc"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

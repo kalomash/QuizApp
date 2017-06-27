@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="quizappp.quizapp.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/download"
+    android:src="#e65100"
+    android:scaleType = "centerCrop"
+    android:weightSum="1">
+
+
+    <TextView
+        android:id="@+id/animal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/animals"
+        android:onClick="ANIMALS"
+        android:padding="50dp"
+        android:text="ANIMALS"
+        android:textColor="#fff"
+        android:textSize="40sp"
+        android:visibility="visible"
+        android:gravity="start"
+        android:paddingTop="50dp"/>
+
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PLANTS"
+            android:padding="50dp"
+            android:id="@+id/plants"
+            android:background="@drawable/plants"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:gravity="bottom"/>
+
+
+    <TextView
+        android:id="@+id/human"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lastbushmen"
+        android:onClick="HUMAN"
+        android:padding="50dp"
+        android:text="HUMANS"
+        android:textSize="40sp"
+        android:textColor="#fff"
+        android:gravity="bottom"/>
+
+
+</LinearLayout>
+
